@@ -1,0 +1,43 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+
+.keys {
+  min-height: 100vh;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid hotpink;
+  box-shadow: 0 0 1.75rem orchid inset; 
+}
+
+.sounds{
+  font-size: 0.8rem;
+}
+
+.key {
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 2px;
+  background: transparent;
+  color: white;
+  font-size: 3rem;
+
+  transition: all 0.07s ease;
+}
+
+.keyed {
+  transform: scale(1.1);
+  border-color: orchid;
+  box-shadow: 0 0 1.5rem orchid;
+}
